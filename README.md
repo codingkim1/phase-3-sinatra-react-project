@@ -5,6 +5,9 @@
 - Build a web basic API with Sinatra and Active Record to support a React
   frontend
 
+## Front-end repo link
+To interact with the API on the UI, use link;  https://github.com/codingkim1/Inspirational-Quotes-React
+
 ## Introduction
 
 Congrats on getting through all the material for Phase 3! Now's the time to put
