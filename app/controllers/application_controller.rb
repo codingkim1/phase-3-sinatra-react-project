@@ -7,6 +7,11 @@ class ApplicationController < Sinatra::Base
     message.to_json 
   end
 
+  get "/messages/:id" do
+    message = Message.find(params[:id])
+    message.to_json  
+  end
+
   post '/messages' do 
     message = Message.create(
       body: params[:body],
