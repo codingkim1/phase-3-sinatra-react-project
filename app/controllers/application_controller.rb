@@ -31,7 +31,7 @@ class ApplicationController < Sinatra::Base
 
   delete '/messages' do 
     Message.all.destroy 
-  end
+  end 
 
   delete '/messages/:id' do 
     message = Message.find(params[:id])
